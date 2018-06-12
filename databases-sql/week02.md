@@ -8,8 +8,7 @@ This week's assignment is to use your knowledge of SQL and our internal too, [Bl
 - Once tested and validated, please compile your answers in a `.sql` file. You can use **atom** to write your SQL. 
   - File naming convention: `firstname-lastname.sql`
   - Template of the file: here()
-- Once done, push your file to the `submissions` directoty in git. How to do that? All details [here](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/overview/submitting-with-git.md)
-- Use the following format for your assignment
+- Once done, push your file to the `submissions` directory in git. How to do that? All details [here](https://github.com/carrot-u/carrot-u-docs/blob/master/docs/overview/submitting-with-git.md)
 
 ## Assignment
 
@@ -118,7 +117,7 @@ Some tables you might use are:
 
 3) Find the most recent order where the total is greater than $500
 
-4) Count the number of deliveries (table name: order_deliveries) from The Garden (warehouse id: 1000) that have been completed in last day
+4) Count the number of deliveries (table name: order_deliveries) from The Garden (warehouse id: 1000) that have been completed in the last day
 
 5) List the first name, last name, email, and phone number of the first 10 people to have a delivery from The Garden (warehouse id: 1000)
 
