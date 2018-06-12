@@ -44,12 +44,12 @@ Concepts:
 ### Question 3
 
 **_What percentage of our active shoppers are in each of those age ranges:
-- (0-20(
-- (20-30(
-- (30-40(
-- (40-50(
-- (50-60(
-- 60+_**
+- [0-20)
+- [20-30)
+- [30-40)
+- [40-50)
+- [50-60)
+- >60
 
 Table / columns to look at:
 - drivers
