@@ -127,7 +127,7 @@
 +    *
 +    , 'https://admin.instacart.com/admin/customers/' || id AS link
 +FROM users
-+WHERE email LIKE 'michael.prescott@instacart.com'
++WHERE email LIKE '<my_email>'
 +
 +-- RESULT: https://admin.instacart.com/admin/customers/22814892 -- Thats me!
 +
@@ -172,18 +172,7 @@
 +ORDER BY od.updated_at ASC
 +LIMIT 10
 +
-+-- RESULT:
-+--name           phone        email
-+--Fahim Ferdous	 7182166232	  thefahim@gmail.com
-+--Liz Barnum	   4088571619	  liz.barnum@instacart.com
-+--Ryan Dick	     4152984667	  ryan@instacart.com
-+--Liz Barnum	   4088571619	  liz.barnum@instacart.com
-+--Ryan Dick	     4152984667	  ryan@instacart.com
-+--Liz Barnum	   4088571619	  liz.barnum@instacart.com
-+--Liz Barnum	   4088571619	  liz.barnum@instacart.com
-+--Ryan Dick	     4152984667	  ryan@instacart.com
-+--Ryan Dick	     4152984667	  ryan@instacart.com
-+--Ryan Dick	     4152984667	  ryan@instacart.com
++-- RESULT: Private info!
 +
 +-- ========================================================================
 +-- Thats all folks!
