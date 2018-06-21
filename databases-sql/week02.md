@@ -49,7 +49,8 @@ Concepts:
 
 ### Question 3
 
-**_What percentage of our active shoppers are in each of those age ranges:_**
+**_What percentage of our active shoppers are in each of those age ranges: _**
+
 **_- (0-20(_**
 **_- (20-30(_**
 **_- (30-40(_**
@@ -68,9 +69,11 @@ Concepts:
 
 ### Question 4
 
-**_For each of the age range categories you created in the previous question, what is the:
+**_For each of the age range categories you created in the previous question, what is the:_*
+
 **_- Average delivery counts per age range of shoppers_**
 **_- Average mpi_**
+
 **_Rank those ranges from the highest average mpi to the lowest._**
 
 You’ll use a subquery structure: WITH xxxx AS (), SELECT
@@ -78,7 +81,7 @@ You’ll use a subquery structure: WITH xxxx AS (), SELECT
 Table / columns to look at:
 - Drivers
 - shopper_metrics
-- Columns: `total_delivery_count` / `total_mpi`
+- Columns: `total_deliveries_count` / `total_mpi`
 
 Concepts:
 - Storing intermediate results in a sub query: WITH xxxx AS ( ), SELECT 
