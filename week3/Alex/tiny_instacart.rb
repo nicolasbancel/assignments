@@ -135,25 +135,25 @@ def get_items
     @orders.clear
 end
 
-# def place_order
-#     response = ""
-#     get_id()
-#     until response == "n"
-#         response = ""
-#         take_order()
-#         #byebug
-#         get_items()
-#         print "Do you want to place another order?(y/n)-> "
-#         response = gets.chomp
-#         if response == "y"
-#             next
-#         elsif response == "n"
-#             puts "Thanks for using Tiny Instacart!!!!!"
-#         else
-#             puts "Please enter 'y' or 'n'!"
-#         end
-#     end
-# end
+def place_order
+    response = ""
+    get_id()
+    until response == "n"
+        response = ""
+        take_order()
+        #byebug
+        get_items()
+        print "Do you want to place another order?(y/n)-> "
+        response = gets.chomp
+        if response == "y"
+            next
+        elsif response == "n"
+            puts "Thanks for using Tiny Instacart!!!!!"
+        else
+            puts "Please enter 'y' or 'n'!"
+        end
+    end
+end
 
 #byebug
 place_order()
