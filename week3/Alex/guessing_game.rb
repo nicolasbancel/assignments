@@ -43,21 +43,21 @@ end
 #     end
 # end
 
-def play_game
-    answer = ""
-    until answer == "n"
-        game()
-        byebug
-        print "Do you want to play again?(y/n) "
-        answer = gets.chomp.downcase
-        if answer == "y"
-            puts "Let's play again!"
-        elsif answer == "n"
-            puts "Thank you for playing!"
-        else
-            puts "Please put 'y' or 'n'."
-        end
-    end
-end
+# def play_game
+#     answer = ""
+#     until answer == "n"
+#         game()
+#         byebug
+#         print "Do you want to play again?(y/n) "
+#         answer = gets.chomp.downcase
+#         if answer == "y"
+#             puts "Let's play again!"
+#         elsif answer == "n"
+#             puts "Thank you for playing!"
+#         else
+#             puts "Please put 'y' or 'n'."
+#         end
+#     end
+# end
 
-play_game()
+game()
